@@ -10,15 +10,15 @@ Este enfoque permite manejar las transacciones de forma **asíncrona**, escalabl
 Arquitectura del Sistema
 El flujo del sistema funciona de la siguiente forma:
 API (GET)
-↓
+,
 Producer
-↓
+,
 RabbitMQ
-↓
+,
 Colas por banco
-↓
+,
 Consumers
-↓
+,
 API (POST)
 
 Tecnologías Utilizadas
