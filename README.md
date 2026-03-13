@@ -75,7 +75,7 @@ El sistema utiliza diferentes colas según el banco destino de la transacción:
 * cola_gyt
 RabbitMQ se encarga de almacenar temporalmente los mensajes hasta que los **Consumers** los procesen.
 La interfaz de administración de RabbitMQ puede visualizarse en:
-http://localhost:15672
+http://localhost:15672 usuario guest
 
 Ejecución del Sistema
 Para ejecutar correctamente el sistema se deben seguir los siguientes pasos:
